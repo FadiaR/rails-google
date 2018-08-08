@@ -1,0 +1,136 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+* vendor/assets/stylesheets directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+* files in this directory. Styles in this file should be added after the last require_* statement.
+* It is generally better to create a new file per style scope.
+*
+*= require_tree .
+*= require_self
+*=require bootstrap.min.css
+*=require bootstrap-theme.min.css
+*/
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 14px;
+  position: absolute;
+  right: 20px;
+}
+
+a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+a:hover{
+  text-decoration: underline;
+  color:gray;
+
+}
+
+#app-img {
+  height: 20px;
+  width: 20px;
+  margin-right: 15px;
+
+}
+
+.signin {
+  border: 2px solid #4285f4;
+  color: white;
+  background-color: #4285f4;
+  padding: 4px 33px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 15px
+
+}
+.container_left{
+  float: right;
+  padding: 63px 12px
+}
+.container_right{
+  float: left;
+  padding: 63px 12px
+
+}
+div.flex-container {
+  display: flex;
+  height: 75%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: yellow; */
+}
+
+div.flex-item {
+  margin-bottom: 24px;
+  size: 50px;
+  border:none;
+}
+
+input[type=search]{
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#google-img {
+  height: 100px;
+  width: 298px;
+}
+.research{
+  background-color: rgba(211, 211, 211, 0.42);
+  padding: 11px 33px;
+  color:gray;
+  font-weight: bold;
+  font-size:11px;
+  text-decoration: none;
+  border:rgba(211, 211, 211, 0.42) ;
+
+}
+
+button.research:hover{
+  color: black;
+  border: 1px solid ;
+  border-color:rgba(211, 211, 211, 0.70);
+}
+
+
+.lucky{
+  background-color: rgba(211, 211, 211, 0.42);
+  padding: 11px 33px;
+  color:gray;
+  font-weight: bold;
+  font-size:11px;
+  text-decoration: none;
+  border: none;
+}
+button.lucky:hover{
+  color: black;
+  border: 1px solid;
+  border-color:rgba(211, 211, 211, 0.70);
+}
+
+.search-bar {
+
+  size: 55;
+  width: 400px;
+}
+
+html, body {
+  height: 100%;
+}
